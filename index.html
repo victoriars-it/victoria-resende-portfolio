@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victoria Resende - Portfólio </title>
+    <meta name="description" content="Portfólio de Victoria Resende, estudante de Engenharia de Software com experiência em Cibersegurança, HTML, CSS, JavaScript, e Banco de Dados. Veja meus projetos e entre em contato.">
+    <meta name="keywords" content="Portfólio, Engenharia de Software, Cibersegurança, Banco de Dados, HTML, CSS, JavaScript, Projetos, Contato">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <!-- Seção Menu de Navegação: home, sobre mim, formação, portfólio e contato -->
+                <li><a href="#home" title="Home">Home</a></li>
+                <li><a href="#sobre" title="Sobre Mim">Sobre Mim</a></li>
+                <li><a href="#formacao" title="Formação">Formação</a></li>
+                <li><a href="#portfolio" title="Portfólio">Portfólio</a></li>
+                <li><a href="#contato" title="Contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Home -->
+    <section id="home" class="landing section-card">
+        <div class="content">
+            <!-- Breve Apresentação -->
+            <h1>Victoria Resende</h1>
+            <h2>Engenharia de Software</h2>
+            <p>Estudante de Engenharia de Software pela UNINTER desde 2023. Aprendendo e aprimorando meus conhecimentos na área de tecnologia.</p>
+            <!-- Botão de Contato -->
+            <a href="#contato" class="btn" title="Entre em contato">Entre em Contato</a>
+        </div>
+        <div class="image">
+            <!-- Imagem -->
+            <img src="Imagens/Victoria.jpeg" alt="Victoria Resende">
+        </div>
+    </section>
+
+    <!-- Seção Sobre Mim -->
+    <article id="sobre" class="about section-card">
+        <div class="about-content">
+            <div class="about-image">
+                <!-- Imagem -->
+                <img src="Imagens/Victoria 2.jpeg" alt="Victoria Resende">
+            </div>
+            <div class="about-text">
+                <!-- Mais detalhes Sobre mim: hobbies, conhecimentos, etc. -->
+                <h1>Sobre Mim</h1>
+                <p>Trabalhei como enfermeira em clínica médica por 04 anos, até que em Setembro de 2023, decidi migrar de carreira e iniciar minha jornada no mundo da tecnologia.</p>
+                <p>Apesar de recente, durante esse período, me aprofundei em diversos tópicos e linguagens da área, tais como: Cibersegurança, HTML, CSS, JavaScript e principalmente Banco de Dados.</p>
+                <p>Em meu tempo livre, gosto principalmente de desenhar e escrever, acho que essa é uma ótima maneira de estimular a criatividade.</p>
+                <div class="about-stats">
+                    <div>
+                        <h2>06+</h2>
+                        <p>Meses de Experiência</p>
+                    </div>
+                    <div>
+                        <h2>SQL</h2>
+                        <p>Amplo conhecimento em Banco de Dados</p>
+                    </div>
+                    <div>
+                        <h2>01</h2>
+                        <p>Empresas Trabalhadas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- Seção Formação -->
+    <section id="formacao" class="qualification section-card">
+        <h1>Qualificação</h1>
+        <p>Saiba mais sobre minha jornada acadêmica e profissional</p>
+        <div class="qualification-tabs">
+            <button id="education-tab" class="active">Educação</button>
+            <button id="work-tab">Experiência Profissional</button>
+            <button id="languages-tab">Idiomas</button>
+        </div>
+        <div id="qualification-content">
+
+            <!-- Linha do tempo de formação -->
+            <div id="education-content" class="timeline">
+                <div class="timeline-item">
+                    <h3>Bacharelado em Engenharia de Software</h3>
+                    <p>Centro Universitário Internacional - UNINTER</p>
+                    <span>Setembro/2023 - Setembro/2027</span>
+                </div>
+                <div class="timeline-item">
+                    <h3>Formação Profissional em Cibersegurança</h3>
+                    <p>Cisco Networking Academy Brazil</p>
+                    <span>Outubro/2023 - Fevereiro/2024</span>
+                </div>
+            </div>
+
+            <!-- Linha do tempo do trabalho -->
+            <div id="work-content" class="timeline hidden">
+                <div class="timeline-item">
+                    <h3>Estagiária em Engenharia de Software</h3>
+                    <p>KIS Solutions - Estados Unidos</p>
+                    <span>Abril/2024 - Atualidade </span>
+                </div>
+            </div>
+
+            <!-- Linha do tempo dos idiomas -->
+            <div id="languages-content" class="timeline hidden">
+                <div class="timeline-item">
+                    <h3>Advanced English (Level 9/C1) - Inglês Avançado</h3>
+                    <p>City College of San Francisco - Califórrnia/ Estados Unidos</p>
+                    <span>Março/2020 - Setembro/2022 </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Seção Portfólio -->
+   <section id="portfolio" class="portfolio section-card">
+    <h1>Meus Projetos</h1>
+    <div class="portfolio-content">
+        <!-- Projeto 1 -->
+        <figure class="project-card">
+            <img src="Imagens/Ease Up.png" alt="Projeto 1 - Ease Up APP">
+            <h3>Aplicativo Ease Up</h3>
+            <p>Interface de app utilizando Figma, para Atividade Extensionista I da faculdade. As demais etapas deste projeto ainda encontram-se em desenvolvimento.</p>
+        </figure>
+
+        <!-- Projeto 2 -->
+        <figure class="project-card">
+            <img src="Imagens/Jogo Pong.png" alt="Projeto 2 - Jogo de Ping Pong">
+            <h3>Jogo de Ping Pong</h3>
+            <p>Este projeto foi realizado através de um exercício do curso de Lógica de Programação na plataforma da Alura, utilizando Scratch e JavaScript.</p>
+        </figure>
+
+        <!-- Projeto 3 -->
+        <figure class="project-card">
+            <img src="Imagens/Banco de Dados.png" alt="Projeto 3 - Modelagem de Banco de Dados">
+            <h3>Modelagem de Banco de Dados</h3>
+            <p>Desenvolvimento de um modelo relacional para criação de banco de dados e a população do mesmo, utilizando SQL. Projeto da disciplina de Bancos de Dados Relacionais.</p>
+        </figure>
+    </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="contact section-card">
+        <h1>Contato</h1>
+        <p>Adicione sua mensagem para que eu possa entrar em contato</p>
+        <div class="contact-content">
+            <!-- Formulário de Contato -->
+            <div class="contact-form">
+                <form action="https://formspree.io/f/mwpkkzra" method="POST">
+                    <div class="form-group">
+                        <!-- Campo de Nome -->
+                        <input type="text" id="nome" name="nome" placeholder="Nome Completo" required>
+                        <!-- Campo de E-mail-->
+                        <input type="email" id="email" name="email" placeholder="E-mail" required>
+                    </div>
+                    <div class="form-group">
+                        <!-- Campo de Projeto -->
+                        <input type="text" id="projeto" name="projeto" placeholder="Projeto">
+                    </div>
+                    <div class="form-group">
+                        <!-- Campo de Mensagem -->
+                        <textarea id="mensagem" name="mensagem" placeholder="Mensagem" required></textarea>
+                    </div>
+                    <!-- Botão de Envio -->
+                    <button type="submit" class="btn">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/victoriars-it" target="_blank">LinkedIn</a>
+            </div>
+            <p>&copy; 2024 Victoria Resende. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+    </body>
+    </html>
